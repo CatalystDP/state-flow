@@ -1,0 +1,20 @@
+{
+  "name": "state-flow",
+  "version": "1.0.0",
+  "description": "manage state and state dependency",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "build": "node ./node_modules/webpack/bin/webpack.js",
+    "build-test": "node ./node_modules/webpack/bin/webpack.js --config webpack.test.config.js"
+  },
+  "author": "CatalystDP",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.8.1"
+  }
+}
